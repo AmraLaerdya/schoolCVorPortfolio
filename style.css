@@ -1,0 +1,98 @@
+/* ========== BASE STYLES ========== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* ========== SECTION ========== */
+  section {
+    text-align: left;
+    padding: 0rem;
+    max-width: 1200px;
+    width: 90%;
+    margin: auto;
+  }
+
+  #about {
+    padding-top: 1rem;
+  }
+  
+  h2 {
+    text-align: center;
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  
+  
+  /* ========== CERTIFICATIONS ========== */
+  .cert-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .cert-grid a img {
+    width: 100%;
+    max-width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .cert-grid a img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* ========== PROJECT SECTION ========== */
+  .project {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .project img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  /* ========== CONTACT SECTION ========== */
+  .contact {
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .contact a,
+  .contact span {
+    display: inline-block;
+    margin: 1rem 1.5rem;
+    padding-bottom: 2rem;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .contact a:hover {
+    color: #888888;
+  }
+  
